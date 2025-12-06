@@ -63,7 +63,7 @@ private fun createNote(archive: Archive) {
     if (content.isEmpty()) return
 
     archive.notes.add(Note(name, content))
-    println("Заметка '$name' успешно создана в архиве '${archive.name}'!")
+    println("Заметка '$name' создана в архиве '${archive.name}'!")
 }
 
 private fun showNote(note: Note) {
